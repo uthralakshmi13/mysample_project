@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javacript Assignment 6</title>
+</head>
+<body>
+    <h1>Finding Leap Year 
+    </h1>
+ 
+    <input type="number" id="year">
+    <button class="btn btn-primary" type="button" onclick="Leapyear()">Find</button>
+    <h3 id="result"></h3>
+    <script type="text/javascript">
+       function Leapyear(){
+           var year = document.getElementById('year').value;
+           var a = (Number(year) % 100 === 0) ? (Number(year) % 400 === 0)
+                                     : (Number(year) % 4 === 0);
+                                     console.log(a)
+            if(a){
+                document.getElementById('result').innerHTML = '<span style="color:green">It is a leap year</span>';
+            }
+            else{
+                document.getElementById('result').innerHTML = '<span style="color:red">It is NOT a leap year</span>';
+
+            }
+       }
+        
+
+    </script>
+</body>
+
+</html>

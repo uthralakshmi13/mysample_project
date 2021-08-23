@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javacript Assignment 5</title>
+</head>
+<body>
+    <h1>rotate the string 'w3resource' in right direction by periodically removing one letter from the end of the string and attaching it to the front.
+    </h1>
+ 
+
+    <h1>w3resource :<span style="color: purple;" id="rev"></span></h1>
+
+    <script type="text/javascript">
+        var str = "w3resource";
+        console.log(str.split('').reverse().join(''))
+        var str_rev  = str.split('').reverse().join('');
+       
+        document.getElementById('rev').innerHTML = str_rev;
+        
+
+    </script>
+</body>
+
+</html>

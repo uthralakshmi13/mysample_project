@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javacript Assignment 4</title>
+</head>
+<body>
+    <h1>Area of a triangle where lengths of the three of its sides are 5, 6, 7.</h1>
+    <h2>Area = √[s(s-a)(s-b)(s-c)]</h2>
+    <h3>s = (a + b + c)/2 </h3>
+    <h4> a = 5, b = 6, c = 7</h4>
+
+    <h1>Area of given triangle :<span style="color: purple;" id="area"></span></h1>
+
+    <script type="text/javascript">
+        var a = 5, b = 6, c = 7;
+        var s = (a + b + c)/2 ;
+
+        var area =  Math.sqrt(s * (s - a) * (s - b) * (s - c));
+       
+        document.getElementById('area').innerHTML = area;
+        
+
+    </script>
+</body>
+
+</html>

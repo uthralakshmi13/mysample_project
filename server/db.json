@@ -1,0 +1,31 @@
+{
+  "dept": [
+    {
+      "id": 2,
+      "user_name": "Uthra A",
+      "mob_no": "7708611898",
+      "email_id": "uthra1311@gmail.com",
+      "role": "Senior Engineer",
+      "created_ts": 1629377204035,
+      "last_updated_ts": 1629440806726
+    },
+    {
+      "id": 4,
+      "user_name": "UthraLakshmii",
+      "mob_no": "7992402756",
+      "email_id": "Uthralakshmi.A@brillio.com",
+      "role": "Software Engineer",
+      "created_ts": 1629377238922,
+      "last_updated_ts": 1629377238922
+    },
+    {
+      "id": 3,
+      "user_name": "Mageshwari",
+      "mob_no": "8923402748",
+      "email_id": "magesh@gmail.com",
+      "role": "Senior testing",
+      "created_ts": 1629377603198,
+      "last_updated_ts": 1629377603198
+    }
+  ]
+}

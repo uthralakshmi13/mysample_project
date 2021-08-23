@@ -1,0 +1,244 @@
+.section-1{
+    background-image: url(../images/infosys-template/sec-1-img.webp);
+    height: 592px;
+    background-size: contain;
+}
+
+header .btn{
+    background: transparent;
+    border: none;
+}
+
+.section-1 .welcome-text h5{
+    color: #fff;
+    font-size: 41px;
+    top: 34px;
+}
+.section-1 .welcome-text{
+    top: 167px;
+    max-width: 500px;
+}
+.bg-dark-custom{
+    background-color: transparent;
+}
+.btn-custom-default{
+    height: 32px;
+    font-size: 14px;
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #fff;
+}
+.section-2{
+    background-image: url(../images/infosys-template/sec-2-img.webp);
+    background-color: #df9926;
+    height: 590px;
+    background-size: contain;
+
+    color: #fff;
+}
+.section h5{
+    font-size: 43px;
+    
+}
+.section .content{
+    top: 86px;
+}
+.section h3{
+    font-size: 1.65rem;
+    max-width: 285px;
+
+}
+.section a{
+    color: #fff;
+}
+.btn-default-2{
+    font-size: 20px;
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 7px 60px;
+    color: #fff;
+}
+
+.section-3{
+    background-image: url(../images/infosys-template/sec-blue-img.webp);
+    background-color: #0f9ffa;
+    height: 590px;
+    background-size: contain;
+
+    color: #fff;
+}
+.section-4{
+    background-image: url(../images/infosys-template/sec-3-img.webp);
+    background-color: #963596;
+    height: 590px;
+    background-size: contain;
+
+    color: #fff;
+}
+
+.section-5 .bg-img{
+    background-image: url(../images/infosys-template/sec-5-img.webp);
+    background-size: cover;
+}
+
+.btn-primary-default{
+    font-size: 15px;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    padding: 7px 30px;
+    color: #000;
+    font-weight: 600;
+}
+
+.section-6 .left-sec{
+    background-color: #DF9926;
+    padding: 30px
+}
+
+.section-6 .left-sec h3{
+    border-top: 1px solid rgba(90, 90, 90, 0.22);
+    padding: 20px 0;
+    max-width: none;
+    font-size: 18px;
+}
+
+.section-6 .left-sec .text-box{
+    background: rgba(47, 17, 19,0.3);
+    padding: 22px 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section-7 .news-row{
+    border-bottom: 1px solid #e1e1e1;
+    margin-right: 45px;
+    padding: 20px 0;
+}
+
+.section-7 p a{
+    color: #0076ff !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.section-9 .left-sec p{
+    padding: 75px 0;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+}
+.section-9{
+    padding: 75px 0;
+    background-color: #963596;
+}
+
+.section-9 .left-sec p:hover{
+    background-color: #D0B5D5;
+    color: #000;
+}
+.section-9 .right-sec h2{
+    font-size: 65px;
+line-height: 73px;
+font-weight: 900;
+margin-bottom: 30px;
+color: #fff;
+}
+
+.section-9 .right-sec .btn-primary-default{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 40px;
+    border-color: #000;
+}
+.section .heading{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Tungsten A', 'Tungsten B', 'Khand', sans-serif;
+    line-height: 70px;
+   
+}
+.section .sub-heading{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    max-width: 700px;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+
+.section-8 .text-content{
+    bottom: 34px;
+    left: 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.section-8 .btn-primary-default{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 12px 40px; 
+    background-color: #000;
+    color: #fff;
+}
+.section-8 .testimonial{
+    bottom: -80px;
+    background: #f3f3f3;
+    max-width: 420px;
+    padding: 35px;
+    position: absolute;
+    right: 60px;
+}
+.section-8 .testimonial .head{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;  
+}
+
+.section-8 .testimonial img{
+    height: 85px;
+    margin-right: 10px;
+    width: 85px !important;
+}
+.section-8 .testimonial .carousel-indicators{
+   bottom: -30px;
+}
+.section-8 .testimonial .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.border-style{
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+footer p a{
+    color: #3F3F3F;
+    font-size: 16px;
+}
+
+footer h5{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 900;
+}
+
